@@ -1,6 +1,6 @@
-require "middleman-core"
+require 'middleman-core'
 
-Middleman::Extensions.register :middleman-somemoji do
-  require "my-extension/extension"
-  MyExtension
+Middleman::Extensions.register :somemoji do
+  require 'middleman-somemoji/extension'
+  ::Middleman::Somemoji::Extension
 end
