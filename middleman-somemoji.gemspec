@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.name        = 'middleman-somemoji'
   s.version     = Middleman::Somemoji::VERSION
   s.platform    = Gem::Platform::RUBY
-  # s.authors     = ["Your Name"]
-  # s.email       = ["email@example.com"]
-  # s.homepage    = "http://example.com"
-  # s.summary     = %q{A short summary of your extension}
-  # s.description = %q{A longer description of your extension}
+  s.authors     = ['Yusuke Nakamura']
+  s.email       = ['yusuke1994525@gmail.com']
+  s.homepage    = 'https://github.com/unasuke/middleman-somemoji'
+  s.summary     = %q{TBD}
+  s.description = %q{TBD}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
