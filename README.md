@@ -1,5 +1,7 @@
 # middleman-somemoji
 
+[![Build Status](https://travis-ci.org/unasuke/middleman-somemoji.svg?branch=master)](https://travis-ci.org/unasuke/middleman-somemoji)
+
 middleman-somemoji is a emoji extension for Middleman.
 Choose emoji provider and convert emoji shorthand (e.g. `:heart:`) to `<img>` tag using somemoji gem.
 
