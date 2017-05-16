@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rdoc'
   s.add_development_dependency 'yard'
   s.add_development_dependency 'cucumber'
+  s.add_development_dependency 'capybara'
   s.add_development_dependency 'aruba'
   s.add_development_dependency 'rspec'
 end
