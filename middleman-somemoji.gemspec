@@ -11,8 +11,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Yusuke Nakamura']
   s.email       = ['yusuke1994525@gmail.com']
   s.homepage    = 'https://github.com/unasuke/middleman-somemoji'
-  s.summary     = %q{TBD}
-  s.description = %q{TBD}
+  s.summary     = %q{Convert emoji (e.g. :heart:) to <img> tag.}
+  s.description = %q{Choose emoji provider and convert emoji shorthand to <img> tag using somemoji gem.}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
