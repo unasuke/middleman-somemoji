@@ -22,4 +22,12 @@ Gem::Specification.new do |s|
   # The version of middleman-core your extension depends on
   s.add_runtime_dependency 'middleman-core', '>= 4'
   s.add_runtime_dependency 'somemoji'
+
+  s.add_development_dependency 'bundler', '~> 1.14'
+  s.add_development_dependency 'rake', '~> 10.0'
+  s.add_development_dependency 'rdoc'
+  s.add_development_dependency 'yard'
+  s.add_development_dependency 'cucumber'
+  s.add_development_dependency 'aruba'
+  s.add_development_dependency 'rspec'
 end
