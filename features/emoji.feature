@@ -5,5 +5,4 @@ Feature: Emoji
     When I go to "/index.html"
     Then I should see "❤️"
     Then I should see "emoji"
-    Then I should see "/images/emoji/unicode/2764-fe0f.png"
-    #Then I should see %(img alt="❤️" class="emoji" src="/images/emoji/unicode/2764-fe0f.png")
+    Then I should see "/images/emoji_one/unicode/2764-fe0f.png"
