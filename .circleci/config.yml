@@ -12,15 +12,15 @@ version: 2
 jobs:
   test-ruby2.6:
     docker:
-      - image: rubylang/ruby:2.6-bionic
+      - image: circleci/ruby:2.6-buster
     <<: *common_steps
   test-ruby2.5:
     docker:
-      - image: rubylang/ruby:2.5-bionic
+      - image: circleci/ruby:2.5-buster
     <<: *common_steps
   test-ruby2.4:
     docker:
-      - image: rubylang/ruby:2.4-bionic
+      - image: circleci/ruby:2.4-buster
     <<: *common_steps
 workflows:
   version: 2
