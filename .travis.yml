@@ -8,3 +8,6 @@ rvm:
   - 2.6
   - ruby-head
 before_install: gem install bundler
+matrix:
+  allow_failures:
+  - rvm: ruby-head
