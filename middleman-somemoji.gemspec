@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'middleman-core', '>= 4'
   s.add_runtime_dependency 'somemoji'
 
-  s.add_development_dependency 'bundler', '~> 1.14'
+  s.add_development_dependency 'bundler', '~> 2.0'
   s.add_development_dependency 'rake', '~> 10.0'
   s.add_development_dependency 'rdoc'
   s.add_development_dependency 'yard'
