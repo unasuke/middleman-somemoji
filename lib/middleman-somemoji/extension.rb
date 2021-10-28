@@ -15,7 +15,6 @@ module Middleman
       end
 
       def after_build(builder)
-        # binding.irb
         ::Middleman::Somemoji::Converter.new(@options).convert(app)
       end
     end
