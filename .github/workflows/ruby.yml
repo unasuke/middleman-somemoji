@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby: ['2.6.x', '2.5.x', '2.4.x']
+        ruby: ['2.7', '2.6', '2.5', '2.4']
     name: Ruby ${{ matrix.ruby }}
     steps:
       - uses: actions/checkout@master
       - name: Setup ruby ${{ matrix.ruby }}
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby }}
           architecture: 'x64'
