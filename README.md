@@ -1,6 +1,7 @@
 # middleman-somemoji
 
-[![Build Status](https://travis-ci.org/unasuke/middleman-somemoji.svg?branch=master)](https://travis-ci.org/unasuke/middleman-somemoji)
+[![CircleCI](https://circleci.com/gh/unasuke/middleman-somemoji/tree/master.svg?style=shield)](https://circleci.com/gh/unasuke/middleman-somemoji/tree/master)
+[![test](https://github.com/unasuke/middleman-somemoji/actions/workflows/ruby.yml/badge.svg?branch=master)](https://github.com/unasuke/middleman-somemoji/actions/workflows/ruby.yml)
 
 middleman-somemoji is a emoji extension for Middleman.
 
