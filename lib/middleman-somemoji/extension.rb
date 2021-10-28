@@ -11,14 +11,11 @@ module Middleman
 
       def initialize(app, options_hash={}, &block)
         super
-
-        require 'somemoji'
-
         @options = options
+      end
 
-        app.before_render do |body, path, locs, template_class|
-          ::Middleman::Somemoji::Converter.new(body, @options).convert
-        end
+      def after_build(builder)
+        ::Middleman::Somemoji::Converter.new(@options).convert(app)
       end
     end
   end
