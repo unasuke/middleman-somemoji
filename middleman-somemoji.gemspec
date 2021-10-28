@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   
   # The version of middleman-core your extension depends on
   s.add_runtime_dependency 'middleman-core', '~> 4'
+  s.add_runtime_dependency 'middleman-cli', '~> 4'
   s.add_runtime_dependency 'somemoji'
 
   s.add_development_dependency 'bundler'
